@@ -12,7 +12,7 @@ const getSum = () => {
 	const table=document.querySelector("table");
 	const row=document.createElement("tr");
 	row.innerHTML=`
-	<td>${sum}</td>
+	<td id="ans">${sum}</td>
 	`;
 	table.appendChild(row);
 };
